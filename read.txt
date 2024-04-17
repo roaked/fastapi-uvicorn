@@ -1,0 +1,4 @@
+
+docker build -t image .
+
+docker run --name container1 -p 8000:8000 image
